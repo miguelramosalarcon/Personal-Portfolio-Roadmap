@@ -10,17 +10,17 @@ Esta es una solución del proyecto **Personal Portfolio** como parte del reto de
 </div>
 
 ## Requirements
--[x] Fully styled and responsive website
--[x] Consistent color scheme and typography
--[x] Use flexbox, media queries, and grid to create a responsive layout
--[x] Responsive navigation bar
--[x] Well-styled contact form
+- [x] Fully styled and responsive website
+- [x] Consistent color scheme and typography
+- [x] Use flexbox, media queries, and grid to create a responsive layout
+- [x] Responsive navigation bar
+- [x] Well-styled contact form
 
 ### Bonus:
 
--[x] Utilize Google Fonts
--[x] Link to GitHub pages
--[x] Add dark mode support
+- [x] Utilize Google Fonts
+- [x] Link to GitHub pages
+- [x] Add dark mode support
 
 ### Capturas de pantalla
 
@@ -43,6 +43,6 @@ Diseño adaptado para cualquier tipo de pantalla del dispositivo:
 
 - [Pagina web](https://miguelramosalarcon.github.io/Personal-Portfolio-Roadmap/)
 - [Codigo fuente]()
-
+- [Link](https://roadmap.sh/projects/portfolio-website)
 > [!IMPORTANT]
 > **“En medio de la dificultad reside la oportunidad."** No dejemos de practicar, esforcémonos por lo que nos apasiona.
