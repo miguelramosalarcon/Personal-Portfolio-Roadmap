@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta targs SEO -->
+    <meta name="description" content="Personal Portfolio Website - Roadmap Contact"/>
+    <meta name="keywords" content="Roadmap, Miguel Ramos Alarcon, Frontend, MRA, developer"/>
+    <meta name="author" content="Miguel Alonso Ramos Alarcon" />
+    <meta name="copyright" content="Miguel Alonso Ramos Alarcon @2024" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo__container">
+            <img src="image/LogoMiguel2024.png" alt="Logo" class="header__logo">
+            <h2 class="header__name">Miguel Ramos</h2>
+        </div>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html" class="nav__link">Home /</a></li>
+                <li><a href="proyects.html" class="nav__link">Proyects /</a></li>
+                <li><a href="#articles" class="nav__link">Articles /</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+            <img src="image/moon.svg" alt="moon" class="nav__link" id="icon">
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main__header">
+            <h1 class="header__title">FrontEnd Developer</h1>
+            <p class="header__subtitle">html only with proper layout, no styling</p>
+        </div>
+        <div class="wrapper center">            
+            <form action="" class="form" id="contactForm">
+                <div class="form__container">
+                    <h2 class="header__title">Contact</h2>
+                    <label for="name" class="form__label">Names</label>
+                    <input type="text" name="name" id="name" placeholder="Ej. Miguel Ramos Alarcon" required>
+
+                    <label for="email" class="form__label">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Ej. miguelramos@gmail.com" required>
+                    <span id="emailError" style="color: darkred; font-size: .9rem; font-weight: bold; display: none;">Error: Please, enter a valid email address..</span>
+                    <label for="message" class="form__label">Message</label>
+                    <textarea name="message" id="message" placeholder="Message" required></textarea>
+                    <input type="submit" value="Send" class="input__send">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copy">&copy; all rights reserved 2024</p>
+    </footer>    
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
